@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBGE_API.Android", "IBGE_API\IBGE_API.Android\IBGE_API.Android.csproj", "{33116B1E-E42C-4C92-9EDD-674761F60ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBGE_API", "IBGE_API\IBGE_API\IBGE_API.csproj", "{340F9F48-550F-41CD-822A-DAD86C77CD79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33116B1E-E42C-4C92-9EDD-674761F60ABD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340F9F48-550F-41CD-822A-DAD86C77CD79}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58536B56-567C-43FC-9E84-B0DD3BC1E5CE}
+	EndGlobalSection
+EndGlobal
