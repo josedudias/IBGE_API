@@ -11,20 +11,29 @@
         <ListView x:Name="lvEstados" >
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding Sigla}"
-                                   TextColor="Black"
-                                   FontSize="24"
-                                   FontAttributes="Bold"
-                                   />
+                    <ViewCell>
+                        <StackLayout>
+                            <Label  Text="{Binding Sigla}"
+                                    TextColor="Black"
+                                    FontSize="24"
+                                    FontAttributes="Bold"
+                                    />
+                        </StackLayout>
+                    </ViewCell>
+
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
+        
         <Picker x:Name="pkEstados"
-                BackgroundColor="Tan"
                 TextColor="Black"
                 SelectedIndexChanged="PickerSelect"
                 />
-        
+
+        <Picker x:Name="pkUnidadesFederativas"
+                TextColor="Black"
+                SelectedIndexChanged="PickerSelect"
+                />
+
     </StackLayout>
 </ContentPage>
